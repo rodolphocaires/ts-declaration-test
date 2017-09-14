@@ -1,0 +1,7 @@
+{
+    "name": "ts-declaration-test",
+    "author": "TypeScript Declaration Test",
+    "version": "1.0.0",
+    "main": "./main.js",
+    "types": "./test.d.ts"
+}
