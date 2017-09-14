@@ -1,4 +1,4 @@
-export module GAS {
+export namespace GAS {
     /*~ For example, given this definition, someone could write:
      *~   import { subProp } from 'yourModule';
      *~   subProp.foo();
@@ -6,9 +6,9 @@ export module GAS {
      *~   import * as yourMod from 'yourModule';
      *~   yourMod.subProp.foo();
      */
-    export function gasThing(): string;
+    export function gasThing(): void;
 }
 
 export namespace Agentless {
-    export function agentlessThing(): string;
+    export function agentlessThing(): void;
 }
