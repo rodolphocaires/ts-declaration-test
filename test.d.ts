@@ -1,4 +1,4 @@
-export namespace GAS {
+export module GAS {
     /*~ For example, given this definition, someone could write:
      *~   import { subProp } from 'yourModule';
      *~   subProp.foo();
