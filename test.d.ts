@@ -6,9 +6,9 @@ export namespace GAS {
      *~   import * as yourMod from 'yourModule';
      *~   yourMod.subProp.foo();
      */
-    export function gasThing(): void;
+    export function gasThing(): string;
 }
 
 export namespace Agentless {
-    export function agentlessThing(): void;
+    export function agentlessThing(): string;
 }
