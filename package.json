@@ -3,5 +3,25 @@
     "author": "TypeScript Declaration Test",
     "version": "1.0.0",
     "main": "./main.js",
-    "types": "./test.d.ts"
+    "types": "./test.d.ts",
+    "compilerOptions": {
+        "module": "commonjs",
+        "lib": [
+            "es6",
+            "dom"
+        ],
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "strictNullChecks": false,
+        "baseUrl": "./",
+        "typeRoots": [
+            "./"
+        ],
+        "noEmit": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "files": [
+        "test.ts",
+        "test.d.ts"
+    ]
 }
